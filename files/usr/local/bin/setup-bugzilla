@@ -140,6 +140,7 @@ $answer{'db_mysql_ssl_ca_file'}     = '';
 $answer{'db_mysql_ssl_ca_path'}     = '';
 $answer{'db_mysql_ssl_client_cert'} = '';
 $answer{'db_mysql_ssl_client_key'}  = '';
+$answer{'db_mysql_ssl_optional'}    = $ENV{"MYSQL_SSL_OPTIONAL"} || '0';
 
 $answer{'urlbase'} = $ENV{"BUGZILLA_URL"};
 $answer{'create_htaccess'} = 1;
